@@ -1,0 +1,17 @@
+Nombre del Torneo: p0
+
+Resumen del Torneo
+- Total de Equipos: 4
+- Total de Días: 14
+- Espacios Disponibles por Día: 1
+- Cantidad de Participantes: 4
+
+Detalles Adicionales
+- Fecha de Inicio: 2024-03-01
+- Fecha de Fin: 2024-03-14
+- Horas Disponibles por Día: 3
+- Duración de los Juegos: 2 horas
+
+Resultados del Procesamiento
+- Tiempo de Ejecución del Script: 0.077 segundos
+- Archivo del Calendario Creado: p0.ics

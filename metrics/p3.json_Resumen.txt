@@ -1,0 +1,17 @@
+Nombre del Torneo: p3
+
+Resumen del Torneo
+- Total de Equipos: 6
+- Total de Días: 14
+- Espacios Disponibles por Día: 4
+- Cantidad de Participantes: 6
+
+Detalles Adicionales
+- Fecha de Inicio: 2024-03-01
+- Fecha de Fin: 2024-03-14
+- Horas Disponibles por Día: 9
+- Duración de los Juegos: 2 horas
+
+Resultados del Procesamiento
+- Tiempo de Ejecución del Script: 1.418 segundos
+- Archivo del Calendario Creado: p3.ics

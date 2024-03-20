@@ -1,0 +1,8 @@
+{
+    "tournament_name": "p0",
+    "start_date": "2024-03-01",
+    "end_date": "2024-03-14",
+    "start_time": "12:00:00",
+    "end_time": "16:00:00",
+    "participants": ["Barcelona","Real Madrid","Atletico Madrid","Valencia"]
+}

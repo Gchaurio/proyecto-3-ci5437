@@ -1,0 +1,17 @@
+Nombre del Torneo: p2
+
+Resumen del Torneo
+- Total de Equipos: 6
+- Total de Días: 18
+- Espacios Disponibles por Día: 2
+- Cantidad de Participantes: 6
+
+Detalles Adicionales
+- Fecha de Inicio: 2024-03-01
+- Fecha de Fin: 2024-03-18
+- Horas Disponibles por Día: 5
+- Duración de los Juegos: 2 horas
+
+Resultados del Procesamiento
+- Tiempo de Ejecución del Script: 0.498 segundos
+- Archivo del Calendario Creado: p2.ics

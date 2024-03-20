@@ -1,0 +1,17 @@
+Nombre del Torneo: p8
+
+Resumen del Torneo
+- Total de Equipos: 10
+- Total de Días: 31
+- Espacios Disponibles por Día: 3
+- Cantidad de Participantes: 10
+
+Detalles Adicionales
+- Fecha de Inicio: 2024-03-01
+- Fecha de Fin: 2024-03-31
+- Horas Disponibles por Día: 7
+- Duración de los Juegos: 2 horas
+
+Resultados del Procesamiento
+- Tiempo de Ejecución del Script: 31.323 segundos
+- Archivo del Calendario Creado: p8.ics

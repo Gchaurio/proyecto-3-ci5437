@@ -1,0 +1,17 @@
+Nombre del Torneo: p6
+
+Resumen del Torneo
+- Total de Equipos: 8
+- Total de Días: 28
+- Espacios Disponibles por Día: 2
+- Cantidad de Participantes: 8
+
+Detalles Adicionales
+- Fecha de Inicio: 2024-03-01
+- Fecha de Fin: 2024-03-28
+- Horas Disponibles por Día: 5
+- Duración de los Juegos: 2 horas
+
+Resultados del Procesamiento
+- Tiempo de Ejecución del Script: 4.585 segundos
+- Archivo del Calendario Creado: p6.ics

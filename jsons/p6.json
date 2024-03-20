@@ -1,0 +1,9 @@
+{
+    "tournament_name": "p6",
+    "start_date": "2024-03-01",
+    "end_date": "2024-03-28",
+    "start_time": "12:00:00",
+    "end_time": "18:00:00",
+    "participants": ["Barcelona","Real Madrid","Atletico Madrid","Valencia","Vallaloid",
+                    "Zaragosa","Osazuna","Getafe"]
+}

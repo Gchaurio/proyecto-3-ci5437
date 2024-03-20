@@ -1,0 +1,17 @@
+Nombre del Torneo: p9
+
+Resumen del Torneo
+- Total de Equipos: 12
+- Total de Días: 31
+- Espacios Disponibles por Día: 5
+- Cantidad de Participantes: 12
+
+Detalles Adicionales
+- Fecha de Inicio: 2024-03-01
+- Fecha de Fin: 2024-03-31
+- Horas Disponibles por Día: 11
+- Duración de los Juegos: 2 horas
+
+Resultados del Procesamiento
+- Tiempo de Ejecución del Script: 152.344 segundos
+- Archivo del Calendario Creado: p9.ics

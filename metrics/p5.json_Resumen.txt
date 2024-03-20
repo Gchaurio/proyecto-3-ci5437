@@ -1,0 +1,17 @@
+Nombre del Torneo: p5
+
+Resumen del Torneo
+- Total de Equipos: 8
+- Total de Días: 21
+- Espacios Disponibles por Día: 3
+- Cantidad de Participantes: 8
+
+Detalles Adicionales
+- Fecha de Inicio: 2024-03-01
+- Fecha de Fin: 2024-03-21
+- Horas Disponibles por Día: 7
+- Duración de los Juegos: 2 horas
+
+Resultados del Procesamiento
+- Tiempo de Ejecución del Script: 5.713 segundos
+- Archivo del Calendario Creado: p5.ics

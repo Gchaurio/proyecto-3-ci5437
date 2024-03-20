@@ -12,8 +12,16 @@ glucoseFileName = 'outputGluc.gluc'
 
 
 class SatSolver():
-    def __init__(self, totalTeams, 
-                totalDays, availableSpaces,teams=None):
+    def __init__(self, totalTeams, totalDays, availableSpaces,teams=None):
+        """
+            Inicializa un solucionador SAT para el problema de programación de partidos.
+
+            Args:
+            totalTeams: El número total de equipos.
+            totalDays: El número total de días disponibles.
+            availableSpaces: El número total de espacios disponibles para los partidos.
+            teams: Una lista opcional de nombres de equipos.
+        """
         self.totalTeams = totalTeams
         self.totalDays = totalDays
         self.availableSpaces = availableSpaces
@@ -24,6 +32,9 @@ class SatSolver():
         self.constraints = ''
 
     def useBidict(self):
+        """
+        Genera y utiliza un bidict para mapear las variables generadas a identificadores numéricos.
+        """
         setOfVars =self.generated.variables()
         glucoseVars = range(1, len(setOfVars)+1)
         varsToDict = {var:str(glucoseVar) for var, glucoseVar in zip(setOfVars, glucoseVars)}
@@ -76,10 +87,16 @@ class SatSolver():
 
 ##############
     def getGlucose(self):
+        """
+        Funcion para hacer uso de Glucose.
+        """
         subprocess.run(['./glucose', cnfFileName, glucoseFileName,  '-model', '-verb=0'], 
             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
     def parsingOutput(self):
+        """
+        Funcion que parsea el output para hacerlo entendible al usuario.
+        """
         if not self.output: return None
         vars = self.output.split()
         vars = list(filter(lambda x: int(x) > 0, vars))
@@ -103,6 +120,14 @@ class SatSolver():
         self.output = parsedOutput
         
     def solve(self):
+        """
+        Resuelve el problema de programación de partidos utilizando un solucionador SAT.
+        Genera todas las restricciones necesarias, escribe la entrada del solucionador SAT,
+        invoca el solucionador y procesa la salida para obtener la solución.
+
+        Returns:
+        La solución al problema de programación de partidos, o None si no se encuentra solución.
+        """
         self.oneMatchPerTeam()
         self.oneGamePerDay()
         self.oneGamePerAvailableSpace()
